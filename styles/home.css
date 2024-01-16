@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Sugar;
+    src: url("../assets/sugar.ttf");
+}
+
+@font-face {
+    font-family: Abril;
+    src: url("../assets/abril.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ede0d4;
+    color: #4D3729;
+    font-family: Sugar;
+}
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list-container {
+    margin-left: auto;
+    display: flex;
+}
+
+.list-container > .nav-links > a {
+    text-decoration: none;
+    /* border: 0.1em solid black; */
+    padding: 0.5em 0.5em 0.2em;
+    margin: 0 1em;
+    font-size: 2rem;
+    border-bottom: 0.3em solid #4D3729 ;
+}
+
+.list-container > .nav-links:last-child > a {
+    margin-right: 10rem;
+}
+
+.list-container > .nav-links:first-child > a {
+    margin-left: 0;
+}
+
+.list-container > .nav-links {
+    list-style-type: none;
+}
+
+.logo {
+    aspect-ratio: 1/1;
+    width: 12em;
+    margin-left: 10rem;
+}
+
+.hero-img {
+    width: 100%;
+    position: relative;
+    filter: brightness(25%) contrast(90%);
+}
+
+.head-title {
+    font-size: 8rem;
+    background-color: transparent;
+    color: #ede0d4;
+    font-family: Abril;
+    letter-spacing: 0.05em;
+}
+
+.info-container {
+    position: absolute;
+    top: 30%;
+    background-color: transparent;
+    text-align: center;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+}
+
+.home-button {
+    font-size: 2.5rem;
+    font-family: Abril;
+    color: #ede0d4;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    margin-top: 3em;
+    letter-spacing: 0.05em;
+    border: 0.1em solid #ede0d4;
+    cursor: pointer;
+    transition: all 0.2s;    
+}
+
+.emp-word {
+    display: inline;
+    padding: 0.0 0.2em;
+    font-size: 10rem;
+}
+
+.home-button:hover {
+    color: #4D3729;
+    background-color: #ede0d4;
+}
