@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: Inter;
+    src: url("../assets/inter.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f5f2;
+    color: #1c1915;
+    font-family: Inter;
+    font-size: 8px;
+}
+
+.nav-container {
+    position: sticky;
+    top:0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2.5em 0;
+    box-shadow: 0 0.1em .75em #121110;
+    z-index: 999;
+}
+
+.list-container {
+    margin-left: auto;
+    display: flex;
+    background-color: transparent;
+}
+
+.list-container > .nav-links > a {
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    margin: 0 1em;
+    font-size: 1.75rem;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.list-container > .nav-links:last-child > a {
+    margin-right: 15rem;
+    border: 0.2em solid #1c1915;
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+.list-container > .nav-links:last-child > a:hover {
+    background-color: #4d3729;
+    border: 0.2em solid #4d3729;
+    color: white;
+}
+
+.list-container > .nav-links:first-child > a {
+    margin-left: 0;
+}
+
+.list-container > .nav-links {
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.logo {
+    aspect-ratio: 4/3;
+    width: 10em;
+    margin-left: 15rem;
+    background-color: transparent; 
+    filter: brightness(0) saturate(100%) invert(28%) sepia(6%) saturate(3274%) hue-rotate(345deg) brightness(93%) contrast(90%);}
+
+.logo-link {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.upper-info-container {
+    display: block;
+    width: 100%;
+}
+
+.upper-info-title {
+    background-color: #1c1915;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5em;
+}

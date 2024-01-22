@@ -1,0 +1,104 @@
+.contact-container {
+    padding: 2rem 0;
+    display: flex;
+    margin: 5em 30em;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-right: 0.1em solid #1c1915;
+}
+
+.name-input,
+.email-input {
+    font-size: 2.5rem;
+    margin-bottom: 0.75em;
+    padding: 0.5em 1em;
+    outline: none;
+    width: 80%;
+    border-radius: 2em;
+    border: 0.1em solid #1c1915;
+}
+
+.message-input {
+    resize: none;
+    font-size: 2.5rem;
+    padding: 0.5em 1em;
+    width: 80%;
+    outline: none;
+    border: 0.1em solid #1c1915;
+    border-radius: 1em;
+}
+
+.submit-button {
+    font-size: 2rem;
+    padding: 0.5em 1.5em;
+    outline: none;
+    border: 0.2em solid #f7f5f2;
+    border-radius: 2em;
+    background-color: #4d3729;
+    color: #f7f5f2;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+.contact-title,
+.contact-information {
+    font-size: 4rem;
+    margin-bottom: 1em;
+    color: #4d3729;
+}
+
+.addinfo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin-left: 4em;
+}
+
+.addinfo-container > h4 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #4d3729;
+}
+
+.addinfo-container > h5 {
+    font-size: 2.5rem;
+    color: #4d3729;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.social-container {
+    margin-left: 10%;
+}
+
+.fb-logo {
+    aspect-ratio: 1;
+    width: 15%;
+}
+
+.ig-logo {
+    aspect-ratio: 1;
+    width: 14%;
+    margin-left: 0.75em;
+}
+
+.fb-link {
+    cursor: pointer;
+}
+
+.ig-link {
+    cursor: pointer;
+}
+
+.menu-item {
+    font-size: 2rem;
+}

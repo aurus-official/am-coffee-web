@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/navbar.css"/>
+        <link rel="stylesheet" href="../styles/menu.css"/>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <title>Menu</title>
+    </head>
+    <body onload="fetchMenuList()">
+        <div class="upper-info-container">
+            <p class="upper-info-title">OPEN MONDAY - THURSDAY 9 AM - 9 PM / FRIDAY - SATURDAY 10 AM - 9 PM</p>
+        </div>
+        <nav class="nav-container">
+            <a class="logo-link" onclick="window.location.href='../home.html'"><img class="logo" src="../assets/logo.png" /></a>
+            <ul class="list-container">
+                <li class="nav-links">
+                    <a href="./contact.html">CONTACT US</a>
+                </li>
+                <li class="nav-links">
+                    <a href="./menu.html">ORDER NOW</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main-container">
+            <div class="option-container">
+                <select onchange="showSize()" id="menu">
+                    <option class="option-item" value="default">Choose An Item</option>
+                </select>
+            </div>
+            <div class="option-container last">
+                <select id="size">
+                    <option class="option-item" value="default">Size</option>
+                </select>
+                <input type="number" class="input-quantity" placeholder="Quantity" />
+                <submit class="add-cart-button">Add To Cart</submit>
+            </div>
+            <div class="img-container">
+                <img class="menu-img" src="../assets/menu.jpg" alt="menu"/>
+            </div>
+
+        </main>
+        <script src="../main.js"></script>
+    </body>
+</html>

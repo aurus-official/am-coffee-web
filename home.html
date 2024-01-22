@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AM Coffee Shop</title>
-    <link rel="stylesheet" href="./styles/home.css" />
-
-</head>
-<body>
-    <div class="container">
-        <img class="hero-img" src="./assets/hero.jpg" alt="pic" />
-        <div class="info-container">
-            <h1 class="head-title">The <div class="head-title emp-word">BEST</div> is always made at home!</h1>
-            <button class="home-button">SIP & SAVOR</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AM Coffee Shop</title>
+        <link rel="stylesheet" href="./styles/navbar.css" />
+        <link rel="stylesheet" href="./styles/home.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    </head>
+    <body>
+        <div class="upper-info-container">
+            <p class="upper-info-title">OPEN MONDAY - THURSDAY 9 AM - 9 PM / FRIDAY - SATURDAY 10 AM - 9 PM</p>
         </div>
         <nav class="nav-container">
-            <img class="logo" src="./assets/logo.png" />
+            <a class="logo-link" onclick="window.location.href='./home.html'"><img class="logo" src="./assets/logo.png" /></a>
             <ul class="list-container">
                 <li class="nav-links">
-                    <a href="./components/menu.html">Cafe Menu</a>
+                    <a href="./components/contact.html">CONTACT US</a>
                 </li>
                 <li class="nav-links">
-                    <a href="./components/about.html">About Us</a>
-                </li>
-                <li class="nav-links">
-                    <a href="./components/contact.html">Contact Us</a>
+                    <a href="./components/menu.html">ORDER NOW</a>
                 </li>
             </ul>
         </nav>
-    </div>
-    <header>
-        <!-- <img class="hero-img" src="./assets/hero.jpg" /> -->
-    </header>
-    
-</body>
+        <header class="header-container">
+            <div class="hero-info-container">
+                <img class="hero-info-img" src="./assets/logo.png" />
+                <h2 class="sub-title">The BEST is always made at HOME!</h2>
+                <button onclick="clickPa()" class="read-more-button">READ MORE</button>
+            </div>
+            <img class="hero-img" src="./assets/hero.jpg"/>
+        </header>
+        <main class="main-container">
+            <div class="main-img-container">
+                <img class="main-img" src="./assets/about.jpg"/>
+            </div>
+            <div class="main-info-container">
+                <h1 class="main-title">WHO ARE WE?</h1>
+                <h3 class="main-info">
+                    My dream came true when I constructed my own café, 
+                    fulfilling my lifelong ambition of opening a coffee 
+                    shop that would captivate and delight customers. It 
+                    all began when I was assigned the task of creating 
+                    a 3D model for my architecture class, and it was a 
+                    no-brainer for me to choose to construct a café called 
+                    "Kapehan Sa South." Little did I know that a few years 
+                    later, destiny would bring me together with my girlfriend, 
+                    who shared the same passion for exploring different 
+                    cafes and indulging in the pleasure of coffee. Inspired by 
+                    our mutual love for coffee and the desire to share 
+                    that joy with others, we contemplated the idea of 
+                    starting a cafe ourselves. However, being new to the 
+                    business realm, we had to embark on a humble journey 
+                    of knowledge acquisition, starting from scratch and 
+                    eagerly absorbing every bit of information we could 
+                    find. As an architect, I drew upon my expertise and 
+                    renamed the café in alignment with my architectural 
+                    company, "A.M. Design and Build," infusing the essence 
+                    of our shared passion and vocation into the café's very 
+                    identity. Through dedication and perseverance, we 
+                    meticulously crafted a warm and inviting atmosphere 
+                    at "Kapehan sa South," where coffee aficionados can 
+                    savor every sip, enveloped in the welcoming embrace 
+                    of our carefully curated ambiance and menu. Opening 
+                    this café has been the realization of my dreams, a 
+                    testament to the power of passion and the fulfillment 
+                    that comes with transforming aspirations into reality.
+                </h3>
+            </div>
+        </main>
+        <footer class="footer-container">
+            <p class="footer-title">© A.M Coffee | ALL RIGHTS RESERVED 2024.</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
 </html>
